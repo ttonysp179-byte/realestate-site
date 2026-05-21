@@ -1,1 +1,126 @@
-style stuff here
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+    background: #4CAF50;
+    color: white;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+/* WHY CHOOSE ME */
+.why {
+    padding: 60px 40px;
+    background: white;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.why-card {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* LISTINGS */
+.listings {
+    padding: 60px 40px;
+}
+
+.listing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.listing-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.listing-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tag {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    padding: 60px 40px;
+    background: #1a1a1a;
+    color: white;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    padding: 40px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
