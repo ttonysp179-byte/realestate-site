@@ -1,13 +1,19 @@
 /* GLOBAL */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
     margin: 0;
+    font-weight: 600;
+}
+
+section {
+    padding: 80px 40px;
 }
 
 /* NAVBAR */
@@ -15,48 +21,76 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 25px 50px;
     background: white;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .nav-links {
     display: flex;
-    gap: 25px;
+    gap: 35px;
     list-style: none;
+    font-size: 16px;
+}
+
+.nav-links li {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-links li:hover {
+    color: #4CAF50;
+}
+
+.nav-contact {
     font-weight: bold;
+    margin-right: 20px;
 }
 
 .btn {
     background: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 22px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #43a047;
 }
 
 /* HERO */
 .hero {
     background: #4CAF50;
     color: white;
-    padding: 100px 40px;
+    padding: 140px 40px;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 42px;
-    margin-bottom: 15px;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 25px;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
 }
 
 /* WHY CHOOSE ME */
 .why {
-    padding: 80px 40px;
     background: white;
     text-align: center;
 }
@@ -69,67 +103,73 @@ h1, h2, h3, h4 {
 }
 
 .why h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 34px;
+    margin-bottom: 15px;
 }
 
 .subtitle {
     color: #666;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    font-size: 17px;
 }
 
 .why-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 35px;
 }
 
 .why-card {
-    background: #f2f2f2;
-    padding: 25px;
-    border-radius: 10px;
+    background: #fafafa;
+    padding: 30px;
+    border-radius: 12px;
     text-align: left;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid #eaeaea;
+}
+
+.why-card h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 /* LISTINGS */
 .listings {
-    padding: 80px 40px;
     text-align: center;
 }
 
 .listing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 35px;
 }
 
 .listing-card {
     background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid #eaeaea;
 }
 
 .listing-card img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
 }
 
 .tag {
     background: #4CAF50;
     color: white;
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 /* TESTIMONIALS */
 .testimonials {
-    padding: 80px 40px;
     background: #1a1a1a;
     color: white;
     text-align: center;
@@ -138,34 +178,42 @@ h1, h2, h3, h4 {
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 35px;
 }
 
 .testimonial-card {
-    background: #333;
-    padding: 25px;
-    border-radius: 10px;
+    background: #2b2b2b;
+    padding: 30px;
+    border-radius: 12px;
     text-align: left;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border: 1px solid #333;
 }
 
 /* FOOTER */
 footer {
     background: #111;
     color: white;
-    padding: 50px 40px;
+    padding: 60px 40px;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 35px;
+}
+
+footer h4 {
+    margin-bottom: 12px;
 }
 
 footer p {
     margin: 6px 0;
+    color: #ccc;
 }
 
-footer h4 {
-    margin-bottom: 10px;
+footer .copyright {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
 }
