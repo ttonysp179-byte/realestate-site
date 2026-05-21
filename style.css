@@ -1,7 +1,13 @@
+/* GLOBAL */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f7f7f7;
+    background: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
 }
 
 /* NAVBAR */
@@ -16,111 +22,150 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     list-style: none;
+    font-weight: bold;
 }
 
 .btn {
     background: #4CAF50;
     color: white;
-    padding: 10px 18px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 /* HERO */
 .hero {
     background: #4CAF50;
     color: white;
-    padding: 80px 40px;
+    padding: 100px 40px;
     text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 
 /* WHY CHOOSE ME */
 .why {
-    padding: 60px 40px;
+    padding: 80px 40px;
     background: white;
+    text-align: center;
+}
+
+.why h2 {
+    color: #4CAF50;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.why h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 40px;
 }
 
 .why-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
 .why-card {
     background: #f2f2f2;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* LISTINGS */
 .listings {
-    padding: 60px 40px;
+    padding: 80px 40px;
+    text-align: center;
 }
 
 .listing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
 .listing-card {
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .listing-card img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .tag {
     background: #4CAF50;
     color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 /* TESTIMONIALS */
 .testimonials {
-    padding: 60px 40px;
+    padding: 80px 40px;
     background: #1a1a1a;
     color: white;
+    text-align: center;
 }
 
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
 .testimonial-card {
     background: #333;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 /* FOOTER */
 footer {
     background: #111;
     color: white;
-    padding: 40px;
+    padding: 50px 40px;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 25px;
+}
+
+footer p {
+    margin: 6px 0;
 }
 
 footer h4 {
     margin-bottom: 10px;
 }
-
-footer p {
-    margin: 5px 0;
-}
-
-
