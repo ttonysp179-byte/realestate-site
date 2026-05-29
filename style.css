@@ -299,3 +299,90 @@ footer .copyright {
     margin-top: 40px;
     color: #777;
 }
+/* BUYERS HERO */
+.buyers-hero {
+    background: #4CAF50;
+    color: white;
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.buyers-hero h2 {
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.buyers-hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.buyers-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* PROCESS */
+.buyers-process {
+    background: white;
+    text-align: center;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.process-card {
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* LOAN PROGRAMS */
+.loan-programs {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.loan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.loan-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+/* DTI SECTION */
+.dti-section {
+    background: white;
+    text-align: center;
+}
+
+.dti-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.dti-card {
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
