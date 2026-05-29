@@ -1,1 +1,85 @@
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 120px 20px 80px 20px;
+        background-position: center;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn, .btn-outline {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .stat h3 {
+        font-size: 26px;
+    }
+
+    /* LISTINGS */
+    .listing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* WHY CHOOSE ME */
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* TESTIMONIALS */
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* BUYERS PAGE */
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .loan-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dti-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
