@@ -386,3 +386,72 @@ footer .copyright {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     text-align: left;
 }
+/* SELLERS HERO */
+.sellers-hero {
+    background: #4CAF50;
+    color: white;
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.sellers-hero h2 {
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sellers-hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.sellers-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* SELLING PROCESS */
+.selling-process {
+    background: white;
+    text-align: center;
+}
+
+.selling-process .process-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.selling-process .process-card {
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* HOME VALUE */
+.home-value {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 100px 40px;
+}
+
+.home-value h2 {
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.home-value h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.home-value p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+}
